@@ -18,3 +18,6 @@ Note: Coding event_timestamps properly is critical.  If a testing region ends wi
 otherwise the next time step will contain testing and non-testing samples, causing the time_step_scores tag to be
 non-testing, and the reward_scores tag to be testing; in contrast, if it ends at the end of a period, it does
 not need to end at the end of a time step, as there is no following time step for the rest of the period.
+
+The vggface2 model (weights.h5) can be downloaded from https://drive.google.com/file/d/1AHVpuB24lKAqNyRRjhX7ABlEor6ByZlS/view?usp=sharing
+The emopy model can be downloaded from https://github.com/thoughtworksarts/EmoPy/blob/master/EmoPy/models/conv_model_0123456.h5
